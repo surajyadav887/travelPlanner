@@ -1,0 +1,61 @@
+/* General Header Styles */
+.header {
+    background-color: #007bff; /* Blue background */
+    color: white;
+    padding: 1rem 2rem; /* Adjusted padding for a sleek look */
+    display: flex;
+    justify-content: space-between; /* Space between logo and navigation */
+    align-items: center; /* Vertically center items */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    position: sticky; /* Sticks to the top while scrolling */
+    top: 0;
+    z-index: 1000; /* Ensures it stays on top */
+  }
+  
+  /* Logo Styles */
+  .header .logo {
+    font-size: 1.5rem; /* Larger text for the logo */
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Navigation Styles */
+  .navigation {
+    display: flex;
+    gap: 15px; /* Space between nav buttons */
+  }
+  
+  /* Navigation Button Styles */
+  .nav-button {
+    color: #ffffff;
+    background-color: transparent; /* Transparent background for simplicity */
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border: 2px solid transparent; /* Border for hover effect */
+    border-radius: 25px; /* Rounded buttons */
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .nav-button:hover {
+    background-color: #ffffff; /* Invert background and text colors on hover */
+    color: #007bff;
+    border-color: #ffffff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navigation {
+      flex-wrap: wrap; /* Allow navigation items to wrap on smaller screens */
+      justify-content: center;
+    }
+  
+    .nav-button {
+      padding: 0.5rem;
+      font-size: 0.85rem;
+    }
+  }
+  

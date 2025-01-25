@@ -1,0 +1,91 @@
+{
+  "hash": "c52b57f0",
+  "configHash": "440db0d2",
+  "lockfileHash": "c364dfec",
+  "browserHash": "8fe862ae",
+  "optimized": {
+    "react": {
+      "src": "../../react/index.js",
+      "file": "react.js",
+      "fileHash": "5ccfdde4",
+      "needsInterop": true
+    },
+    "react-dom": {
+      "src": "../../react-dom/index.js",
+      "file": "react-dom.js",
+      "fileHash": "1b440265",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "cd455804",
+      "needsInterop": true
+    },
+    "react/jsx-runtime": {
+      "src": "../../react/jsx-runtime.js",
+      "file": "react_jsx-runtime.js",
+      "fileHash": "82c8a4c2",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "b0b9d024",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../react-router-dom/esm/react-router-dom.js",
+      "file": "react-router-dom.js",
+      "fileHash": "fadd8204",
+      "needsInterop": false
+    },
+    "react-chartjs-2": {
+      "src": "../../../../node_modules/react-chartjs-2/dist/index.js",
+      "file": "react-chartjs-2.js",
+      "fileHash": "f9d99607",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "476ff7af",
+      "needsInterop": false
+    },
+    "react-leaflet": {
+      "src": "../../../../node_modules/react-leaflet/lib/index.js",
+      "file": "react-leaflet.js",
+      "fileHash": "c9be5e86",
+      "needsInterop": false
+    },
+    "leaflet": {
+      "src": "../../../../node_modules/leaflet/dist/leaflet-src.js",
+      "file": "leaflet.js",
+      "fileHash": "f1944b83",
+      "needsInterop": true
+    },
+    "chart.js": {
+      "src": "../../../../node_modules/chart.js/dist/chart.js",
+      "file": "chart__js.js",
+      "fileHash": "404786a9",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-UAIC4UAR": {
+      "file": "chunk-UAIC4UAR.js"
+    },
+    "chunk-KDCVS43I": {
+      "file": "chunk-KDCVS43I.js"
+    },
+    "chunk-TA3DRMUW": {
+      "file": "chunk-TA3DRMUW.js"
+    },
+    "chunk-RLJ2RCJQ": {
+      "file": "chunk-RLJ2RCJQ.js"
+    },
+    "chunk-DC5AMYBS": {
+      "file": "chunk-DC5AMYBS.js"
+    }
+  }
+}

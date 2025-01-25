@@ -1,0 +1,127 @@
+/* ItineraryBuilder.css */
+
+.itinerary-builder-container {
+  padding: 3rem;
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.itinerary-builder-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+  color: #2c3e50; /* Deep Blue */
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.itinerary-form {
+  margin-bottom: 2.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  color: #34495e; /* Darker gray */
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.9rem;
+  border: 1px solid #bdc3c7; /* Light gray */
+  border-radius: 6px;
+  font-size: 1.1rem;
+  color: #333;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: #16a085; /* Teal */
+  box-shadow: 0 0 8px rgba(22, 160, 133, 0.3);
+}
+
+.add-button {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: #e74c3c; /* Coral */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #c0392b; /* Darker Coral */
+  transform: translateY(-3px);
+}
+
+.itinerary-list {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  max-height: 300px;
+  overflow-y: auto;
+  transition: box-shadow 0.3s ease;
+}
+
+.itinerary-list:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.itinerary-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ecf0f1; /* Light gray */
+  padding: 1.2rem 0;
+  transition: background-color 0.3s ease;
+}
+
+.itinerary-item:last-child {
+  border-bottom: none;
+}
+
+.itinerary-item:hover {
+  background-color: rgba(22, 160, 133, 0.1); /* Light teal */
+}
+
+.itinerary-item h4 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #34495e; /* Darker gray */
+}
+
+.itinerary-item button {
+  background-color: #e74c3c; /* Coral */
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.itinerary-item button:hover {
+  background-color: #c0392b; /* Darker Coral */
+  transform: translateY(-2px);
+}

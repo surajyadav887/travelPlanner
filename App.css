@@ -1,0 +1,73 @@
+/* General App Styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensure the body stretches to the full height */
+  overflow-x: hidden; /* Prevent horizontal overflow */
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  min-height: 100vh; /* Ensure app container can stretch beyond the viewport */
+  display: flex;
+  flex-direction: column; /* Stack the content vertically */
+}
+
+/* Header Styles */
+.header {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  position: sticky; /* Make the header stay at the top */
+  top: 0;
+  z-index: 1000; /* Ensure it appears above content */
+}
+
+/* Navigation Styles */
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 1rem 0;
+}
+
+.nav-button {
+  background-color: #ffffff;
+  color: #007bff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid #007bff;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Content Container */
+.content-container {
+  flex: 1; /* Allow content to expand and push the footer down */
+  padding: 2rem;
+  text-align: center;
+  overflow-y: auto; /* Allow scrolling for overflowing content */
+  box-sizing: border-box;
+}
+
+/* Ensure scrollable areas */
+.content-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.content-container::-webkit-scrollbar-thumb {
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+.content-container::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}

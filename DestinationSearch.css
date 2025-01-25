@@ -1,0 +1,18 @@
+/* DestinationSearch.css */
+.map-container {
+  height: 100vh; /* Full height of the viewport */
+  width: 100%;   /* Full width of the viewport */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 24px;
+  color: #333;
+}
